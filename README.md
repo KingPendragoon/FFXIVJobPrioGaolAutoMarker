@@ -1,8 +1,11 @@
 Please make sure that Default party sort is enabled in FF (Tank, Healer, DPS) and that in triggernometry it is configured under
  "Options > Edit Configuration > Final Fantasy XIV" that player list set to "Custom Order" and is in the proper order as well of Tanks, Healers, DPS. 
  ![alt text](https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/PartyListTriggerStep1.png?raw=true)
+ 
  ![alt text](https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/PartyListTriggerStep2.png?raw=true)
+ 
  ![alt text](https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/PartyListTriggerStep3.png?raw=true)
+ 
 
 If you have duplicate Job classes (I.E. Double Samurai turn on the options under the "DoubleJobSafetyCheck" otherwise leave it as is)
 
@@ -66,6 +69,7 @@ For live testing the regular expression in "Players and Jobs" needs to be
 
 If you wish to Edit the Keybindings from F1-F9 you will need to go into Mark1-3 as well as Wipe Reset. Change keycode for each trigger (25 in total, 8 in each Mark1-3 and one in Wipe reset) to the desired keybinding.  
 ![alt text](https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/HowToEditKeybinding.png?raw=true)
+
 ![alt text](https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/WipeResetMarker.png?raw=true)
 
 If you wish to edit the priority list you will need to go into each of the triggers 
