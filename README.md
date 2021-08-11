@@ -63,6 +63,10 @@ For live testing the regular expression in "Players and Jobs" needs to be
   
 `\[.{14}15:[A-F0-9]{8}:[^:]*:2B6[BC]:[^:]*:[A-F0-9]{8}:(?<name>[a-zA-Z-'  ]{1,31}):`
 
+
+If you wish to Edit the Keybindings from F1-F9 you will need to go into Mark1-3 as well as Wipe Reset. Change keycode for each trigger (25 in total, 8 in each Mark1-3 and one in Wipe reset) to the desired keybinding.  
+![alt text](https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/HowToEditKeybinding.png?raw=true)
+
 If you wish to edit the priority list you will need to go into each of the triggers 
 Job1Priority-Job3Priority and change the numbers assigned to them there
   
