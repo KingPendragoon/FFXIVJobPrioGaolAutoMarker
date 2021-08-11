@@ -1,5 +1,8 @@
-Please make sure that Default party sort is enabled in FF (Tank, Healer, DPS) and that in triggernometry it is configured under
- "Options > Edit Configuration > Final Fantasy XIV" that player list set to "Custom Order" and is in the proper order as well of Tanks, Healers, DPS. 
+Please make sure that Default party sort is enabled in FF (Tank, Healer, DPS)
+![alt text](https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/InGamePartyOrder.png?raw=true)
+
+In triggernometry it is configured under "Options > Edit Configuration > Final Fantasy XIV" that player list set to "Custom Order" and is in the proper order as well of Tanks, Healers, DPS. 
+
  ![alt text](https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/PartyListTriggerStep1.png?raw=true)
  
  ![alt text](https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/PartyListTriggerStep2.png?raw=true)
