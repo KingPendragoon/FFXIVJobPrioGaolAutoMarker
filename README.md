@@ -51,7 +51,7 @@ Regular expressions in the "Players and Jobs" tab and replace the regular expres
 `\[.{22}15:[A-F0-9]{8}:[^:]*:2B6[BC]:[^:]*:[A-F0-9]{8}:(?<name>[a-zA-Z-' ]{1,31}):` 
   
 then make a macro with the following text and replace Name1-Name3 with the players name.  Make sure the line ends with a colon :
-
+You will need an 8 man party in the same instance for the test to work.
 `/e 15:88888888:Titan:2B6C:Rock Throw:88888888:Name1:`
 `/e 15:88888888:Titan:2B6C:Rock Throw:88888888:Name2:`
 `/e 15:88888888:Titan:2B6C:Rock Throw:88888888:Name3:`
