@@ -35,19 +35,12 @@ F8: /mk attack <8>
 F9
 
 /mk clear <1>
-
 /mk clear <2>
-
 /mk clear <3>
-
 /mk clear <4>
-
 /mk clear <5>
-
 /mk clear <6>
-
 /mk clear <7>
-
 /mk clear <8>
 
 
@@ -60,9 +53,7 @@ Regular expressions in the "Players and Jobs" tab and replace the regular expres
 then make a macro with the following text and replace Name1-Name3 with the players name.  Make sure the line ends with a colon :
 
 `/e 15:88888888:Titan:2B6C:Rock Throw:88888888:Name1:`
-
 `/e 15:88888888:Titan:2B6C:Rock Throw:88888888:Name2:`
-
 `/e 15:88888888:Titan:2B6C:Rock Throw:88888888:Name3:`
 
 For live testing the regular expression in "Players and Jobs" needs to be
