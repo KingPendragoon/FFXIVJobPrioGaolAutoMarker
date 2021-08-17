@@ -1,3 +1,6 @@
+You need triggernometry for this.  Version 1
+1.4.1 https://github.com/paissaheavyindustries/Triggernometry
+
 Please make sure that Default party sort is enabled in FF (Tank, Healer, DPS)
 ![alt text](https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/InGamePartyOrder.png?raw=true)
 
