@@ -14,8 +14,6 @@ In triggernometry it is configured under "Options > Edit Configuration > Final F
  ![alt text](https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/PartyListTriggerStep3.png?raw=true)
  
 
-If you have duplicate Job classes (I.E. Double Samurai turn on the options under the "DoubleJobSafetyCheck" otherwise leave it as is)
-
 The following Macros will need to be created and added to the F1-F9 keys
 
 F1: /mk attack <1>
