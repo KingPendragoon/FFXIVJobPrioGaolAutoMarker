@@ -49,14 +49,18 @@ F9
 
 
 If you want to test if the plugin works before you reach the fight by running those echo's you will need to go to
-Regular expressions in the "Players and Jobs" tab and replace the regular expression there with this: 
+Regular expressions in the "Players and Jobs" tab and replace the regular expression there with the following. 
 
 `\[.{22}15:[A-F0-9]{8}:[^:]*:2B6[BC]:[^:]*:[A-F0-9]{8}:(?<name>[a-zA-Z-' ]{1,31}):` 
   
-then make a macro with the following text and replace Name1-Name3 with the players name.  Make sure the line ends with a colon :
-You will need an 8 man party in the same instance for the test to work.
+You will then need to make a macro with the following text and replace "Name1-Name3" with the players name.  Make sure the line ends with a colon `:`
+
+**You will need an 8 man party in the same instance for the test to work.**
+
 `/e 15:88888888:Titan:2B6C:Rock Throw:88888888:Name1:`
+
 `/e 15:88888888:Titan:2B6C:Rock Throw:88888888:Name2:`
+
 `/e 15:88888888:Titan:2B6C:Rock Throw:88888888:Name3:`
 
 For live testing the regular expression in "Players and Jobs" needs to be
