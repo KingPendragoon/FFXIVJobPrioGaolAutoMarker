@@ -1,5 +1,6 @@
-You need triggernometry for this.  Version 1
-1.4.1 https://github.com/paissaheavyindustries/Triggernometry
+**Set Up**
+
+You need triggernometry for this Version 1.1.4.1 Or higher: https://github.com/paissaheavyindustries/Triggernometry
 
 Please make sure that Default party sort is enabled in FF (Tank, Healer, DPS)
 ![alt text](https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/InGamePartyOrder.png?raw=true)
@@ -47,7 +48,7 @@ F9
 /mk clear <8>
 
 
-
+**Testing**
 If you want to test if the plugin works before you reach the fight by running those echo's you will need to go to
 Regular expressions in the "Players and Jobs" tab and replace the regular expression there with the following. 
 
@@ -67,6 +68,7 @@ For live testing the regular expression in "Players and Jobs" needs to be
   
 `\[.{14}15:[A-F0-9]{8}:[^:]*:2B6[BC]:[^:]*:[A-F0-9]{8}:(?<name>[a-zA-Z-'  ]{1,31}):`
 
+**Editing**
 
 If you wish to Edit the Keybindings from F1-F9 you will need to go into Mark1-3 as well as Wipe Reset. Change keycode for each trigger (25 in total, 8 in each Mark1-3 and one in Wipe reset) to the desired keybinding. Reference https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.keys?view=net-5.0 for Keycodes.
 ![alt text](https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/HowToEditKeybinding.png?raw=true)
