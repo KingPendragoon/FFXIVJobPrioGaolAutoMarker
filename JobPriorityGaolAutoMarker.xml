@@ -102,31 +102,24 @@
         <Actions>
           <Action OrderNumber="1" ListVariableOp="SortAlphaAsc" ListVariableName="JobPrio" LogLevel="-1" MouseX="" MouseY="" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable" Asynchronous="False">
             <Condition Enabled="false" Grouping="Or" />
-            <Conditions />
           </Action>
           <Action OrderNumber="2" LogLevel="-1" MouseX="" MouseY="" VariableOp="SetString" VariableName="Marker1Priority" VariableExpression="${func:substring(2):${lvar:JobPrio[1]}}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
             <Condition Enabled="false" Grouping="Or" />
-            <Conditions />
           </Action>
           <Action OrderNumber="3" LogLevel="-1" MouseX="" MouseY="" VariableOp="SetString" VariableName="Marker2Priority" VariableExpression="${func:substring(2):${lvar:JobPrio[2]}}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
             <Condition Enabled="false" Grouping="Or" />
-            <Conditions />
           </Action>
           <Action OrderNumber="4" LogLevel="-1" MouseX="" MouseY="" VariableOp="SetString" VariableName="Marker3Priority" VariableExpression="${func:substring(2):${lvar:JobPrio[3]}}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
             <Condition Enabled="false" Grouping="Or" />
-            <Conditions />
           </Action>
           <Action OrderNumber="5" LogMessageText="Marker1 ${func:substring(2):${lvar:JobPrio[1]}}" LogLevel="Info" MouseX="" MouseY="" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="LogMessage" Asynchronous="False">
             <Condition Enabled="false" Grouping="Or" />
-            <Conditions />
           </Action>
           <Action OrderNumber="6" LogMessageText="Marker2 ${func:substring(2):${lvar:JobPrio[2]}}" LogLevel="Info" MouseX="" MouseY="" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="LogMessage" Asynchronous="False">
             <Condition Enabled="false" Grouping="Or" />
-            <Conditions />
           </Action>
           <Action OrderNumber="7" LogMessageText="Marker3 ${func:substring(2):${lvar:JobPrio[3]}}" LogLevel="Info" MouseX="" MouseY="" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="LogMessage" Asynchronous="False">
             <Condition Enabled="false" Grouping="Or" />
-            <Conditions />
           </Action>
           <Action OrderNumber="8" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="d7872e5c-b17e-4b00-8598-b256a14a9e8f" TriggerForce="regexp" ActionType="Trigger" Asynchronous="False">
             <Condition Enabled="true" Grouping="And">
@@ -134,7 +127,6 @@
               <ConditionSingle Enabled="true" ExpressionL="${evar:Marker2Priority}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
               <ConditionSingle Enabled="true" ExpressionL="${evar:Marker3Priority}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
             </Condition>
-            <Conditions />
           </Action>
         </Actions>
         <Condition Enabled="false" Grouping="Or" />
@@ -196,57 +188,47 @@
             <Condition Enabled="true" Grouping="And">
               <ConditionSingle Enabled="true" ExpressionL="${var:Marker3Priority}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[1].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
             </Condition>
-            <Conditions />
           </Action>
           <Action OrderNumber="2" KeypressType="WindowMessage" KeyPressExpression="{F2}" KeyPressCode="113" KeyPressWindow="FINAL FANTASY XIV" VariableOp="SetString" VariableName="${var:Marker1}" VariableExpression="$(playerName)" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="KeyPress" Asynchronous="False">
             <Condition Enabled="true" Grouping="And">
               <ConditionSingle Enabled="true" ExpressionL="${var:Marker3Priority}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[2].name}" ExpressionTypeR="String" ConditionType="StringEqualCase" />
             </Condition>
-            <Conditions />
           </Action>
           <Action OrderNumber="3" KeypressType="WindowMessage" KeyPressExpression="{F3}" KeyPressCode="114" KeyPressWindow="FINAL FANTASY XIV" VariableOp="SetString" VariableName="${var:Marker1}" VariableExpression="$(playerName)" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="KeyPress" Asynchronous="False">
             <Condition Enabled="true" Grouping="And">
               <ConditionSingle Enabled="true" ExpressionL="${var:Marker3Priority}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[3].name}" ExpressionTypeR="String" ConditionType="StringEqualCase" />
             </Condition>
-            <Conditions />
           </Action>
           <Action OrderNumber="4" KeypressType="WindowMessage" KeyPressExpression="{F4}" KeyPressCode="115" KeyPressWindow="FINAL FANTASY XIV" VariableOp="SetString" VariableName="${var:Marker1}" VariableExpression="$(playerName)" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="KeyPress" Asynchronous="False">
             <Condition Enabled="true" Grouping="And">
               <ConditionSingle Enabled="true" ExpressionL="${var:Marker3Priority}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[4].name}" ExpressionTypeR="String" ConditionType="StringEqualCase" />
             </Condition>
-            <Conditions />
           </Action>
           <Action OrderNumber="5" KeypressType="WindowMessage" KeyPressExpression="{F5}" KeyPressCode="116" KeyPressWindow="FINAL FANTASY XIV" VariableOp="SetString" VariableName="${var:Marker1}" VariableExpression="$(playerName)" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="KeyPress" Asynchronous="False">
             <Condition Enabled="true" Grouping="And">
               <ConditionSingle Enabled="true" ExpressionL="${var:Marker3Priority}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[5].name}" ExpressionTypeR="String" ConditionType="StringEqualCase" />
             </Condition>
-            <Conditions />
           </Action>
           <Action OrderNumber="6" KeypressType="WindowMessage" KeyPressExpression="{F6}" KeyPressCode="117" KeyPressWindow="FINAL FANTASY XIV" VariableOp="SetString" VariableName="${var:Marker1}" VariableExpression="$(playerName)" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="KeyPress" Asynchronous="False">
             <Condition Enabled="true" Grouping="And">
               <ConditionSingle Enabled="true" ExpressionL="${var:Marker3Priority}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[6].name}" ExpressionTypeR="String" ConditionType="StringEqualCase" />
             </Condition>
-            <Conditions />
           </Action>
           <Action OrderNumber="7" KeypressType="WindowMessage" KeyPressExpression="{F7}" KeyPressCode="118" KeyPressWindow="FINAL FANTASY XIV" VariableOp="SetString" VariableName="${var:Marker1}" VariableExpression="$(playerName)" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="KeyPress" Asynchronous="False">
             <Condition Enabled="true" Grouping="And">
               <ConditionSingle Enabled="true" ExpressionL="${var:Marker3Priority}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[7].name}" ExpressionTypeR="String" ConditionType="StringEqualCase" />
             </Condition>
-            <Conditions />
           </Action>
           <Action OrderNumber="8" KeypressType="WindowMessage" KeyPressExpression="{F8}" KeyPressCode="119" KeyPressWindow="FINAL FANTASY XIV" VariableOp="SetString" VariableName="${var:Marker1}" VariableExpression="$(playerName)" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="KeyPress" Asynchronous="False">
             <Condition Enabled="true" Grouping="And">
               <ConditionSingle Enabled="true" ExpressionL="${var:Marker3Priority}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[8].name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
             </Condition>
-            <Conditions />
           </Action>
           <Action OrderNumber="9" LogMessageText="Marker3 ${var:Marker3Priority}" LogLevel="Info" MouseX="" MouseY="" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" Enabled="False" ActionType="LogMessage">
             <Condition Enabled="false" Grouping="Or" />
-            <Conditions />
           </Action>
           <Action OrderNumber="10" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="197760cf-7cb7-4cf5-a4d3-8c1e47514a41" TriggerForce="regexp" ActionType="Trigger" ExecutionDelayExpression="10000" Asynchronous="False">
             <Condition Enabled="false" Grouping="Or" />
-            <Conditions />
           </Action>
         </Actions>
         <Condition Enabled="false" Grouping="Or" />
@@ -306,52 +288,42 @@
         <Actions>
           <Action OrderNumber="1" ListVariableName="ListCount" VariableName="Job1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
             <Condition Enabled="false" Grouping="Or" />
-            <Conditions />
           </Action>
           <Action OrderNumber="2" ListVariableName="ListCount" VariableName="Job2" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
             <Condition Enabled="false" Grouping="Or" />
-            <Conditions />
           </Action>
           <Action OrderNumber="3" ListVariableName="ListCount" VariableName="Job3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
             <Condition Enabled="false" Grouping="Or" />
-            <Conditions />
           </Action>
           <Action OrderNumber="4" ListVariableName="ListCount" VariableName="Marker1Priority" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
             <Condition Enabled="false" Grouping="Or" />
-            <Conditions />
           </Action>
           <Action OrderNumber="5" ListVariableName="ListCount" VariableName="Marker2Priority" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
             <Condition Enabled="false" Grouping="Or" />
-            <Conditions />
           </Action>
           <Action OrderNumber="6" ListVariableName="ListCount" VariableName="Marker3Priority" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
             <Condition Enabled="false" Grouping="Or" />
-            <Conditions />
           </Action>
           <Action OrderNumber="7" LogLevel="-1" MouseX="" MouseY="" VariableName="Counter" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
             <Condition Enabled="false" Grouping="Or" />
-            <Conditions />
           </Action>
           <Action OrderNumber="8" ListVariableName="MarkedPlayersList" LogLevel="-1" MouseX="" MouseY="" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
             <Condition Enabled="false" Grouping="Or" />
-            <Conditions />
           </Action>
           <Action OrderNumber="9" ListVariableName="JobPrio" LogLevel="-1" MouseX="" MouseY="" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
             <Condition Enabled="false" Grouping="Or" />
-            <Conditions />
           </Action>
           <Action OrderNumber="10" KeypressType="WindowMessage" KeyPressExpression="{F9}" KeyPressCode="120" KeyPressWindow="FINAL FANTASY XIV" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="KeyPress">
             <Condition Enabled="false" Grouping="Or" />
-            <Conditions />
           </Action>
         </Actions>
         <Condition Enabled="false" Grouping="Or" />
       </Trigger>
-      <Trigger Enabled="true" IsReadme="True" Name="$$README$$" Id="6cb07250-aab3-4f63-89be-92246e3b80cd" RegularExpression="Read Description Tab https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/README.md" Description="https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/README.md&#xD;&#xA;&#xD;&#xA;Please make sure that Default party sort is enabled in FF (Tank, Healer, DPS) and that in triggernometry it is configured under&#xD;&#xA; &quot;Options &gt; Edit Configuration &gt; FInal Fantasy XIV&quot; that player list set to &quot;Custom Order&quot; and is in the proper order as well of Tanks, Healers, DPS. &#xD;&#xA;&#xD;&#xA;If you have duplicate Job classes (I.E. Double Samurai turn on the options under the &quot;DoubleJobSafetyCheck&quot; otherwise leave it as is)&#xD;&#xA;&#xD;&#xA;The following Macros will need to be created and added to the F1-F9 keys&#xD;&#xA;F1: /mk attack &lt;1&gt;&#xD;&#xA;F2: /mk attack &lt;2&gt;&#xD;&#xA;F3: /mk attack &lt;3&gt;&#xD;&#xA;F4: /mk attack &lt;4&gt;&#xD;&#xA;F5: /mk attack &lt;5&gt;&#xD;&#xA;F6: /mk attack &lt;6&gt;&#xD;&#xA;F7: /mk attack &lt;7&gt;&#xD;&#xA;F8: /mk attack &lt;8&gt;&#xD;&#xA;&#xD;&#xA;F9&#xD;&#xA;/mk clear &lt;1&gt;&#xD;&#xA;&#xD;/mk clear &lt;2&gt;&#xD;&#xD;&#xA;/mk clear &lt;3&gt;&#xD;&#xD;&#xA;/mk clear &lt;4&gt;&#xD;&#xD;&#xA;/mk clear &lt;5&gt;&#xD;&#xD;&#xA;/mk clear &lt;6&gt;&#xD;&#xD;&#xA;/mk clear &lt;7&gt;&#xD;&#xA;&#xD;/mk clear &lt;8&gt;&#xD;&#xA;&#xD;&#xA;If you want to test if the plugin works before you reach the fight by running those echo's you will need to go to&#xD;&#xA;Regular expressions in the &quot;Players and Jobs&quot; tab and replace the regular expression there with this: &#xD;&#xA;\[.{22}15:[A-F0-9]{8}:[^:]*:2B6[BC]:[^:]*:[A-F0-9]{8}:(?&lt;name&gt;[a-zA-Z-' ]{1,31}):&#xD;&#xA;then make a macro with the following text and replace Name1-Name3 with the players name.  Make sure the line ends with a colon :&#xD;&#xA;/e 15:88888888:Titan:2B6C:Rock Throw:88888888:Name1:&#xD;&#xA;/e 15:88888888:Titan:2B6C:Rock Throw:88888888:Name2:&#xD;&#xA;/e 15:88888888:Titan:2B6C:Rock Throw:88888888:Name3:&#xD;&#xA;&#xD;&#xA;For live testing the regular expression in &quot;Players and Jobs&quot; needs to be&#xD;&#xA;\[.{14}15:[A-F0-9]{8}:[^:]*:2B6[BC]:[^:]*:[A-F0-9]{8}:(?&lt;name&gt;[a-zA-Z-'  ]{1,31}):&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;If you wish to edit the priority list you will need to go into each of the triggers &#xD;&#xA;Job1Priority-Job3Priority and change the numbers assigned to them there&#xD;&#xA;MNK: 1&#xD;&#xA;DRG: 2&#xD;&#xA;NIN: 3&#xD;&#xA;SAM: 4&#xD;&#xA;PLD: 5&#xD;&#xA;WAR: 6&#xD;&#xA;DRK: 7&#xD;&#xA;GNB: 8 &#xD;&#xA;BRD: 9&#xD;&#xA;MCH: 10&#xD;&#xA;DNC: 11&#xD;&#xA;BLM: 12&#xD;&#xA;SMN: 13&#xD;&#xA;RDM: 14&#xD;&#xA;WHM: 15&#xD;&#xA;SCH: 16&#xD;&#xA;AST:17">
+      <Trigger Enabled="true" IsReadme="True" Name="$$README: V1.23$$" Id="6cb07250-aab3-4f63-89be-92246e3b80cd" RegularExpression="Read Description Tab https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/README.md" Description="https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/README.md&#xD;&#xA;&#xD;&#xA;Gaol V1.23&#xD;&#xA;&#xD;&#xA;Please make sure that Default party sort is enabled in FF (Tank, Healer, DPS) and that in triggernometry it is configured under&#xD;&#xA; &quot;Options &gt; Edit Configuration &gt; FInal Fantasy XIV&quot; that player list set to &quot;Custom Order&quot; and is in the proper order as well of Tanks, Healers, DPS. &#xD;&#xA;&#xD;&#xA;If you have duplicate Job classes (I.E. Double Samurai turn on the options under the &quot;DoubleJobSafetyCheck&quot; otherwise leave it as is)&#xD;&#xA;&#xD;&#xA;The following Macros will need to be created and added to the F1-F9 keys&#xD;&#xA;F1: /mk attack &lt;1&gt;&#xD;&#xA;F2: /mk attack &lt;2&gt;&#xD;&#xA;F3: /mk attack &lt;3&gt;&#xD;&#xA;F4: /mk attack &lt;4&gt;&#xD;&#xA;F5: /mk attack &lt;5&gt;&#xD;&#xA;F6: /mk attack &lt;6&gt;&#xD;&#xA;F7: /mk attack &lt;7&gt;&#xD;&#xA;F8: /mk attack &lt;8&gt;&#xD;&#xA;&#xD;&#xA;F9&#xD;&#xA;/mk clear &lt;1&gt;&#xD;&#xA;&#xD;/mk clear &lt;2&gt;&#xD;&#xD;&#xA;/mk clear &lt;3&gt;&#xD;&#xD;&#xA;/mk clear &lt;4&gt;&#xD;&#xD;&#xA;/mk clear &lt;5&gt;&#xD;&#xD;&#xA;/mk clear &lt;6&gt;&#xD;&#xD;&#xA;/mk clear &lt;7&gt;&#xD;&#xA;&#xD;/mk clear &lt;8&gt;&#xD;&#xA;&#xD;&#xA;If you want to test if the plugin works before you reach the fight by running those echo's you will need to&#xD;&#xA;make a macro with the following text and replace Name1-Name3 with the players name.  Make sure the line ends with a colon :&#xD;&#xA;/e 15:88888888:Titan:2B6C:Rock Throw:88888888:Name1:&#xD;&#xA;/e 15:88888888:Titan:2B6C:Rock Throw:88888888:Name2:&#xD;&#xA;/e 15:88888888:Titan:2B6C:Rock Throw:88888888:Name3:&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;If you wish to edit the priority list you will need to go into each of the triggers &#xD;&#xA;Job1Priority-Job3Priority and change the numbers assigned to them there&#xD;&#xA;MNK: 01&#xD;&#xA;DRG: 02&#xD;&#xA;NIN: 03&#xD;&#xA;SAM: 04&#xD;&#xA;PLD: 05&#xD;&#xA;WAR: 06&#xD;&#xA;DRK: 07&#xD;&#xA;GNB: 08 &#xD;&#xA;BRD: 09&#xD;&#xA;MCH: 10&#xD;&#xA;DNC: 11&#xD;&#xA;BLM: 12&#xD;&#xA;SMN: 13&#xD;&#xA;RDM: 14&#xD;&#xA;WHM: 15&#xD;&#xA;SCH: 16&#xD;&#xA;AST:17">
         <Actions />
         <Condition Enabled="false" Grouping="Or" />
       </Trigger>
-      <Trigger Enabled="true" Sequential="True" Name="Players and Jobs" Id="f386347c-6a6b-49b5-a46f-55b2c01c5353" RegularExpression="\[.{14}15:[A-F0-9]{8}:[^:]*:2B6[BC]:[^:]*:[A-F0-9]{8}:(?&lt;name&gt;[a-zA-Z-'  ]{1,31}):" RefirePeriodExpression="200" MutexToCapture="StartStop">
+      <Trigger Enabled="true" Sequential="True" Name="Players and Jobs" Id="f386347c-6a6b-49b5-a46f-55b2c01c5353" RegularExpression="\[.{14}(?&lt;type&gt;15|00:0038:15):[A-F0-9]{8}:[^:]*:2B6[BC]:[^:]*:[A-F0-9]{8}:(?&lt;name&gt;[a-zA-Z-' 0-9]{1,31})" RefirePeriodExpression="200" MutexToCapture="StartStop">
         <Actions>
           <Action OrderNumber="1" LogLevel="-1" MouseX="" MouseY="" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="197760cf-7cb7-4cf5-a4d3-8c1e47514a41" TriggerForce="regexp" ActionType="Trigger">
             <Condition Enabled="true" Grouping="And">
