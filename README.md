@@ -76,23 +76,23 @@ If you wish to Edit the Keybindings from F1-F9 you will need to go into Mark1-3 
 If you wish to edit the priority list you will need to go into each of the triggers 
 Job1Priority-Job3Priority and change the numbers assigned to them there
   
-MNK: 1
+MNK: 01
 
-DRG: 2
+DRG: 02
  
-NIN: 3 
+NIN: 03 
  
-SAM: 4 
+SAM: 04 
  
-PLD: 5 
+PLD: 05 
  
-WAR: 6 
+WAR: 06 
  
-DRK: 7 
+DRK: 07 
  
-GNB: 8  
+GNB: 08  
 
-BRD: 9 
+BRD: 09 
  
 MCH: 10 
  
