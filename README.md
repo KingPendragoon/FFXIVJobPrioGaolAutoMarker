@@ -57,7 +57,9 @@ You will then need to make a macro with the following text and replace "Name1-Na
 **You will need an 8 man party in the same instance for the test to work.**
 
 `/e 15:88888888:Titan:2B6C:Rock Throw:88888888:Name1:`
+
 `/e 15:88888888:Titan:2B6C:Rock Throw:88888888:Name2:`
+
 `/e 15:88888888:Titan:2B6C:Rock Throw:88888888:Name3:`
 
 For live testing the regular expression in "Players and Jobs" needs to be
