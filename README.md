@@ -1,3 +1,4 @@
+V1.23
 **Set Up**
 
 You need triggernometry for this Version 1.1.4.1 Or higher: https://github.com/paissaheavyindustries/Triggernometry
@@ -47,12 +48,7 @@ F9
 
 
 **Testing**
-If you want to test if the plugin works before you reach the fight by running those echo's you will need to go to
-Regular expressions in the "Players and Jobs" tab and replace the regular expression there with the following. 
-
-`\[.{22}15:[A-F0-9]{8}:[^:]*:2B6[BC]:[^:]*:[A-F0-9]{8}:(?<name>[a-zA-Z-' ]{1,31}):` 
-  
-You will then need to make a macro with the following text and replace "Name1-Name3" with the players name.  Make sure the line ends with a colon `:`
+If you would like to test if the triggers work before you go into the fight you will need to make a macro with the following text and replace "Name1-Name3" with the players name.  Make sure the line ends with a colon `:`
 
 **You will need an 8 man party in the same instance for the test to work.**
 
@@ -61,10 +57,6 @@ You will then need to make a macro with the following text and replace "Name1-Na
 `/e 15:88888888:Titan:2B6C:Rock Throw:88888888:Name2:`
 
 `/e 15:88888888:Titan:2B6C:Rock Throw:88888888:Name3:`
-
-For live testing the regular expression in "Players and Jobs" needs to be
-  
-`\[.{14}15:[A-F0-9]{8}:[^:]*:2B6[BC]:[^:]*:[A-F0-9]{8}:(?<name>[a-zA-Z-'  ]{1,31}):`
 
 **Editing**
 
