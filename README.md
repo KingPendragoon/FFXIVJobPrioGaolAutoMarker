@@ -59,7 +59,7 @@ If you would like to test if the triggers work before you go into the fight you 
 
 `/e 15:88888888:Titan:2B6C:Rock Throw:88888888:Name3:`
 
-![alt text](https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/TestMacroImg.png?raw=true)
+![alt text](https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/TestMacroImg.png?raw=true) ![alt text](https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/macroImage2.png?raw=true)
 
 **Editing**
 
