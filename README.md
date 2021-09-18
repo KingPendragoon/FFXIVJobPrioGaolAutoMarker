@@ -51,13 +51,15 @@ F9
 **Testing**
 If you would like to test if the triggers work before you go into the fight you will need to make a macro with the following text and replace "Name1-Name3" with the players name.  Make sure the line ends with a colon `:`
 
-**You will need an 8 man party in the same instance for the test to work.**
+**You will need an 8 man party in the same instance for the test to work. Don't have a space between these in your macro**
 
 `/e 15:88888888:Titan:2B6C:Rock Throw:88888888:Name1:`
 
 `/e 15:88888888:Titan:2B6C:Rock Throw:88888888:Name2:`
 
 `/e 15:88888888:Titan:2B6C:Rock Throw:88888888:Name3:`
+
+![alt text](https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/TestMacroImg.png?raw=true)
 
 **Editing**
 
@@ -102,3 +104,4 @@ WHM: 15
 SCH: 16 
  
 AST: 17
+
