@@ -18,26 +18,27 @@ In triggernometry it is configured under "Options > Edit Configuration > Final F
 
 The following Macros will need to be created and added to the F1-F9 keys
 
-F1: /mk attack <1>
+F1: `/mk attack <1>`
 
-F2: /mk attack <2>
+F2: `/mk attack <2>`
 
-F3: /mk attack <3>
+F3: `/mk attack <3>`
 
-F4: /mk attack <4>
+F4: `/mk attack <4>`
 
-F5: /mk attack <5>
+F5: `/mk attack <5>`
 
-F6: /mk attack <6>
+F6: `/mk attack <6>`
 
-F7: /mk attack <7>
+F7: `/mk attack <7>`
 
-F8: /mk attack <8>
+F8: `/mk attack <8>`
 
 
 
-F9
-
+F9:
+````
+/merror off
 /mk clear <1>
 /mk clear <2>
 /mk clear <3>
@@ -46,18 +47,18 @@ F9
 /mk clear <6>
 /mk clear <7>
 /mk clear <8>
-
+````
 
 **Testing**
 If you would like to test if the triggers work before you go into the fight you will need to make a macro with the following text and replace "Name1-Name3" with the players name.  Make sure the line ends with a colon `:`
 
 **You will need an 8 man party in the same instance for the test to work. Don't have a space between these in your macro**
 
-`/e 15:88888888:Titan:2B6C:Rock Throw:88888888:Name1:`
-
-`/e 15:88888888:Titan:2B6C:Rock Throw:88888888:Name2:`
-
-`/e 15:88888888:Titan:2B6C:Rock Throw:88888888:Name3:`
+````
+/e 15:88888888:Titan:2B6C:Rock Throw:88888888:Name1:
+/e 15:88888888:Titan:2B6C:Rock Throw:88888888:Name2:
+/e 15:88888888:Titan:2B6C:Rock Throw:88888888:Name3:
+````
 
 ![alt text](https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/TestMacroImg.png?raw=true) ![alt text](https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/macroImage2.png?raw=true)
 
