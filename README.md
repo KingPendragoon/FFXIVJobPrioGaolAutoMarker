@@ -5,9 +5,10 @@ V1.27
 You need triggernometry for this Version 1.1.4.1 Or higher: https://github.com/paissaheavyindustries/Triggernometry
 
 Please make sure that Default party sort is enabled in FF (Tank, Healer, DPS)
-![alt text](https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/InGamePartyOrder.png?raw=true)
+![alt text](https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/PartySortInGame.png.png?raw=true)
 
-In triggernometry it is configured under "Options > Edit Configuration > Final Fantasy XIV" that player list set to "Custom Order" and is in the proper order as well of Tanks, Healers, DPS. 
+In triggernometry it is configured under "Options > Edit Configuration > Final Fantasy XIV" that player list set to "Custom Order" Then Go through and make sure that your In Game Role Sort Settings and your Triggernometry Pary List Custo Order match 1 to 1.  ***If they do not then the auto markers will mark the wrong players***
+
 
  ![alt text](https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/PartyListTriggerStep1.png?raw=true)
  
