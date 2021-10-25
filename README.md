@@ -51,6 +51,8 @@ F9:
 ````
 It will look like this.  It does not have to be visible to work but it does have to exist on the class you are playing as. 
 ![alt text](https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/InGameHotbar.png?raw=true)
+
+
 **Testing**
 If you would like to test if the triggers work before you go into the fight you will need to make a macro with the following text and replace "Name1-Name3" with the players name.  Make sure the line ends with a colon `:`
 
