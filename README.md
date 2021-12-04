@@ -1,5 +1,5 @@
-V1.27
-
+V1.29
+***Needs testing in UWU with live logs please contact me with the fflogs if it does not fire.***
 **Set Up**
 
 You need triggernometry for this Version 1.1.4.1 Or higher: https://github.com/paissaheavyindustries/Triggernometry
@@ -59,9 +59,9 @@ If you would like to test if the triggers work before you go into the fight you 
 **You will need an 8 man party in the same instance for the test to work. Don't have a space between these in your macro**
 
 ````
-/e 15:88888888:Titan:2B6C:Rock Throw:88888888:Name1:
-/e 15:88888888:Titan:2B6C:Rock Throw:88888888:Name2:
-/e 15:88888888:Titan:2B6C:Rock Throw:88888888:Name3:
+/e Titan|2B6C|Rock Throw|88888888|<1>|
+/e Titan|2B6C|Rock Throw|88888888|<4>|
+/e Titan|2B6C|Rock Throw|88888888|<6>|
 ````
 
 ![alt text](https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/TestMacroImg.png?raw=true) ![alt text](https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/macroImage2.png?raw=true)
@@ -75,38 +75,41 @@ If you wish to Edit the Keybindings from F1-F9 you will need to go into Mark1-3 
 
 If you wish to edit the priority list you will need to go into each of the triggers 
 Job1Priority-Job3Priority and change the numbers assigned to them there
+
+RPR: 01
   
-MNK: 01
+MNK: 02
 
-DRG: 02
+DRG: 03
  
-NIN: 03 
+NIN: 04 
  
-SAM: 04 
+SAM: 05 
  
-PLD: 05 
+PLD: 06 
  
-WAR: 06 
+WAR: 07 
  
-DRK: 07 
+DRK: 08 
  
-GNB: 08  
+GNB: 09  
 
-BRD: 09 
+BRD: 10 
  
-MCH: 10 
+MCH: 11 
  
-DNC: 11 
+DNC: 12 
  
-BLM: 12 
+BLM: 13 
  
-SMN: 13 
+SMN: 14 
  
-RDM: 14 
+RDM: 15 
  
-WHM: 15 
+WHM: 16 
  
-SCH: 16 
+SCH: 17 
  
-AST: 17
+AST: 18
 
+SGE: 19
