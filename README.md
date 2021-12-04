@@ -1,5 +1,6 @@
 V1.29
-***Needs testing in UWU with live logs please contact me with the fflogs if it does not fire.***
+***Needs testing in UWU with live logs please contact me with the ACT logs if it does not fire.*** Discord King Pendragon#3589
+
 **Set Up**
 
 You need triggernometry for this Version 1.1.4.1 Or higher: https://github.com/paissaheavyindustries/Triggernometry
