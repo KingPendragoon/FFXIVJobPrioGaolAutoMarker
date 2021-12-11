@@ -1,5 +1,5 @@
 V1.30
-***Needs testing in UWU with live logs please contact me with the ACT logs if it does not fire.*** Discord King Pendragon#3589
+***Make sure to reverify party order in trig / FF after Endwalker.*** 
 
 **Set Up**
 
