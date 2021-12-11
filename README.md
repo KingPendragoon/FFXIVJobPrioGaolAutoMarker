@@ -3,7 +3,7 @@ V1.30
 
 **Set Up**
 
-You need triggernometry for this Version 1.1.4.4 Or higher: https://github.com/paissaheavyindustries/Triggernometry/releases/latest
+You need triggernometry https://github.com/paissaheavyindustries/Triggernometry/releases/latest
 
 Please make sure that Default party sort is enabled in FF (Tank, Healer, DPS)
 ![alt text](https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/PartySortInGame.png?raw=true)
