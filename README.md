@@ -55,7 +55,7 @@ It will look like this.  It does not have to be visible to work but it does have
 
 
 **Testing**
-If you would like to test if the triggers work before you go into the fight you will need to make a macro with the following text and replace "Name1-Name3" with the players name.  Make sure the line ends with a colon `:`
+If you would like to test if the triggers work before you go into the fight you will need to make a macro with the following text and replace "Name1-Name3" with the players name.  Make sure the line ends with a line break `|`
 
 **You will need an 8 man party in the same instance for the test to work. Don't have a space between these in your macro**
 
