@@ -5,7 +5,7 @@ V1.30
 
 You need triggernometry https://github.com/paissaheavyindustries/Triggernometry/releases/latest
 
-Please make sure that Default party sort is enabled in FF (Tank, Healer, DPS)
+Please make sure that triggernometry job sorting is configured to match that in ffxiv.
 ![alt text](https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/PartySortInGame.png?raw=true)
 
 In triggernometry it is configured under "Options > Edit Configuration > Final Fantasy XIV" that player list set to `Player First rest by Custom Order`. Then Go through and make sure that your `In Game Role Sort Settings` and your Triggernometry Player List Custom Order match 1 to 1.  ***If they do not then the auto markers will mark the wrong players***
